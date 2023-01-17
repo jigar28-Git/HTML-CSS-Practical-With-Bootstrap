@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg justify-content-center bg-body-tertiary"
+    >
+      <div class="container-fluid ms-5 align-item-center d-flex">
+        <div class="navbar-brand ms-5 d-flex">
+          <img
+            src="./img/flipkartname.png"
+            alt="Error"
+            width="100px"
+            height="20px"
+          />
+          <samp
+            >Explore<span> Plus</span
+            ><sup
+              ><img
+                src="./img/pluslogo.png"
+                alt="Error"
+                height="12px"
+                width="12px" /></sup
+          ></samp>
+        </div>
+
+        <form class="d-flex bg-white w-100" role="search">
+          <input
+            type="text"
+            class="search"
+            placeholder=" Search For Product Brands and more..."
+          />
+
+          <!-- <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">  -->
+          <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </form>
+      </div>
+
+      <div
+        class="container-fluid d-flex px-0 ms-5 align-item-center text-center justify-content-center"
+      >
+        <div class="row gx-5">
+          <div class="col">
+            <div class="mt-1">
+              <a href="#" class="navlink"
+                ><button class="logbtn">Login</button></a
+              >
+            </div>
+          </div>
+          <div class="col more-cont">
+            <div class="mt-1">
+              more
+              <i class="fa-solid fa-angle-down" class="angle-down-icon"></i>
+            </div>
+          </div>
+          <div class="col cart">
+            <div class="mt-1">
+              <i class="fa-solid fa-cart-shopping"></i>Cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Offer Item Start -->
+
+    <div class="container-fluid d-flex justify-content-center offers border">
+      <div class="row offer">
+        <div class="col">
+          <img src="./img/topoffer.webp" width="64px" height="64px" alt="" />
+          <br />
+          <a href="#">Top Offers</a>
+        </div>
+        <div class="col">
+          <img src="./img/grocery.webp" width="64px" height="64px" alt="" />
+          <br />
+          <a href="#">Glocery</a>
+        </div>
+        <div class="col">
+          <img src="./img/mobiles.webp" width="64px" height="64px" alt="" />
+          <a href="#">Mobiles</a>
+        </div>
+        <div class="col">
+          <img src="./img/fashion.webp" width="64px" height="64px" alt="" />
+          <br />
+          <a href="#">Fashion</a>
+        </div>
+        <div class="col">
+          <img src="./img/electronics.webp" width="64px" height="64px" alt="" />
+          <a href="#">Electronics</a>
+        </div>
+        <div class="col">
+          <img src="./img/home.webp" width="64px" height="64px" alt="" />
+          <br />
+          <a href="#">Home</a>
+        </div>
+        <div class="col">
+          <img src="./img/apploances.webp" width="64px" height="64px" alt="" />
+          <a href="#">Appliances</a>
+        </div>
+        <div class="col">
+          <img src="./img/traveling.webp" width="64px" height="64px" alt="" />
+          <br />
+          <a href="#">Travel</a>
+        </div>
+        <div class="col">
+          <img src="./img/btam.webp" width="64px" height="64px" alt="" />
+          <a href="#">Beauty, Toys & More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offer Item End -->
+
+    <!-- Products Start -->
+
+    <div class="container-fluid justify-content-center  bg-light shadow-lg">
+      <div class="row g-0 mt-4 gx-2 mx-5 ms-md-5 shadow d-flex rounded justify-content-center bg-white">
+        <div class="col-sm-6 col-md-10">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-1 d-flex">
+              <b style="font-size: 30px;">Deals of the Day</b> 
+                <div class="content ms-5 mt-2">
+                  <img src="img/timer1.svg" alt="time" width="25px" height="25px"> <samp style="color: #a3a3a3;font-size: 20px;"> <b>22 : 07 : 36 Left</samp></b>
+                </div>
+             </div>
+            </div>
+            <div class="col">
+              <div class="p-1 m-2 d-flex justify-content-end">
+                <div class="button" >
+                  <input type="button" class="button" value="VIEW ALL">
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr /> 
+          <div
+            class="container-fluid text-center align-item-center my-3"
+          >
+            <div class="owl-carousel owl-theme">
+              <div class="item align-item-center">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/camera.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Camera</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >Upto 80% Extra 10% off</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">lnockout deals</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/hometample.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Home Tample</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >Extra 10% off</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/tabletcases.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Primium Tablet Cases</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >Extra 10% off</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">for all models</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/homedecore.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Lord Shiva Statue</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >from ₹79</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">For Cars</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/monitor.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monitor</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >20% OFF</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">Electronics</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/stringinstruments.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">String Instruments</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >Instruments</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">Instruments</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card d-flex">
+                  <div class="imagesection w-100 d-flex justify-content-center">
+                    <img
+                      src="./img/powerbank.webp"
+                      class="card-img-top"
+                      alt="..."
+                      style="width: 150px; height: 160px;"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Power Bank</h5>
+                    <samp style="color: #438e3c; font-size: 17px"
+                      >50% Off</samp
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">Mi, RealMe and more. </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 text-center border">
+          <div class="event">
+            <img src="./img/shoppingcart.png" width="100%" height="100%" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Second Container Start -->
+
+      <div class="conteiner-fluid mx-5 ms-md-5 mt-3 border">
+        <div class="row g-0 shadow rounded bg-white">
+          <div class="col-sm-6 col-md-12">
+            <div class="row gx-0">
+              <div class="col">
+               <div class="p-1 d-flex">
+                <b style="font-size: 30px;">Book And music Instruments <br> <span style="font-size: 15px; color: #a3a3a3;">Shop Now!</span></b> 
+               </div>
+              </div>
+              <!--  -->
+              <div class="col">
+                <div class="p-1 m-2 d-flex justify-content-end">
+                  <div class="button" >
+                    <input type="button" class="button" value="VIEW ALL">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr /> 
+            <div
+              class="container-fluid text-center align-item-center my-3"
+            >
+              <div class="owl-carousel owl-theme">
+                <div class="item align-item-center">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/camera.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Camera</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >Upto 80% Extra 10% off</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">lnockout deals</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/hometample.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Home Tample</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >Extra 10% off</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/tabletcases.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Primium Tablet Cases</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >Extra 10% off</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">for all models</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/homedecore.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Lord Shiva Statue</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >from ₹79</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">For Cars</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/monitor.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Monitor</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >20% OFF</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">Electronics</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/stringinstruments.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">String Instruments</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >Instruments</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">Instruments</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card d-flex">
+                    <div class="imagesection w-100 d-flex justify-content-center">
+                      <img
+                        src="./img/powerbank.webp"
+                        class="card-img-top"
+                        alt="..."
+                        style="width: 150px; height: 160px;"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Power Bank</h5>
+                      <samp style="color: #438e3c; font-size: 17px"
+                        >50% Off</samp
+                      >
+                      <p class="card-text">
+                        <small class="text-muted">Mi, RealMe and more. </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Second Container End -->
+
+    <!-- Products End -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl Carousel Links-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+  <script src="Javascript/script.js"></script>
+</html>

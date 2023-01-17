@@ -1,0 +1,149 @@
+ *{
+margin: 0px;
+padding: 0px;
+}
+
+.navbar{
+    background-color: #2874f0;
+}
+.nav-link
+{
+    color: white;
+}
+.navbar-brand samp
+{
+    font-size: 12px;
+    color: white;
+}
+.navbar-brand span{
+    color: yellow;
+}
+.explore
+{
+    top: 10px;
+    left: 10px;
+    padding: 2px;
+}
+.navbar-brand
+{
+    width: 8rem;
+    flex-direction: column;
+}
+.icon
+{
+    color: #2874f0;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+.search
+{
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 100%;
+}
+.logbtn
+{
+    width: 125px;
+    border-radius: 2px;
+    height: 32px;
+    border: 0;
+    color: #2874f0;
+    background-color: white;
+}
+.more-cont
+{
+    color: white;
+    width: 150px;
+}
+.cart{
+    color: white;
+}
+.more
+{
+    font-size: 17px;
+}
+.cart
+{
+    font-size: 17px;
+}
+.navlink
+{
+    color: white;
+}
+.search
+{
+    padding-left: 10px;
+}
+.offer a{
+    text-align: center;
+    text-decoration: none;
+}
+.offers a
+{
+    color: black;
+}
+
+.card
+{
+    border: none;
+
+    width: 100%;
+    height: 100%;
+}
+/* Foe carousel Buttons */
+.owl-prev 
+{
+    position: absolute;
+    background-color: white !important;
+    box-shadow: -1px 4px 5px 7px #ededed;
+    left: 0;
+    top: 25%;
+    height: 90px;
+    width: 30px;
+}
+.owl-next
+{
+    position: absolute;
+    background-color: white !important;
+    box-shadow: -1px 4px 5px 7px #ededed;
+    right: 0;
+    top: 25%;
+    height: 90px;
+    width: 30px;
+}
+/* For view all Button  */
+.button input
+{
+    border: none;
+    width: 8rem;
+    height: 35px;
+    background-color: #2874f0;   
+    color: white;
+}
+.event img
+{
+    border: 2px solid #bfba6c;
+}
+.offer
+{
+overflow-x: scroll;
+flex-wrap: nowrap;
+}
+.offer::-webkit-scrollbar {
+    display: none;
+}
+
+.offer{
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
